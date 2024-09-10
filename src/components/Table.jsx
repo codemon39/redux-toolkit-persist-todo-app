@@ -17,10 +17,10 @@ const Table = () => {
   };
   return (
     <div className="flex justify-center">
-      <table className=" w-4/5 text-black p-10 bg-slate-200 rounded-2xl">
+      <table className=" w-4/5 p-10 rounded-2xl">
         <tbody>
           {data?.todos.map((item, index) => (
-            <tr key={item.id} className="border-b hover:bg-slate-300 ">
+            <tr key={item.id} className="border-b border-t hover:bg-slate-700 ">
               <td>
                 <input
                   className="cursor-pointer"

@@ -30,7 +30,7 @@ const Modal = () => {
       <div
         className={`${
           data.modal === true ? "block" : "hidden"
-        } w-3/5 fixed bg-slate-400 mt-20 pr-6 rounded-3xl`}
+        } w-3/5 fixed bg-slate-800 mt-20 pr-6 rounded-3xl`}
       >
         <span
           className=" hover:text-gray-700 text-3xl float-right cursor-pointer p-3"
